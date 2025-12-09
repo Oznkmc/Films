@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(0, 0, 0, 0.937);
+    color: white;
+}
+
+/* Film kartı */
+.film {
+    width: 230px;
+    height: 350px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: rgba(0, 0, 139, 0.474);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* Film liste alanı (2x2 grid) */
+.film-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 sütun */
+    gap: 20px;
+    /* aralık */
+    padding: 20px;
+    width: 1000px;
+    margin: 50px auto;
+    /* Sayfanın ortasında olsun */
+    background-color: rgba(169, 169, 169, 0.214);
+    border-radius: 10px;
+}
+
+/* Yazı stilleri */
+.film-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Film-Genre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.Film-imdb {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: red;
+}
